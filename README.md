@@ -1,4 +1,13 @@
-# Nuxt 3 Minimal Starter
+# CSS Perspective Playgroud
+This aplication is based on *"Complete Vue Developer Bootcamp (Pinia, Vitest)"* course (section 3 - Project 1: Perspective Playground)
+
+The main difference between original source and this implamantation are:
+* I utilized **Components** directory instead of the single file;
+* I replaced the sliders coded in line to **V-For directives**;
+* Also, I used data **composables** to store the global variables;
+* I removed CSS-Doodle dependency because conflict between Nuxt and it.
+
+## Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -73,3 +82,5 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+I want to meet you to know my other projects [here](https://github.com/lusacramento)!
