@@ -13,8 +13,5 @@
     "nuxt": "^3.9.1",
     "vue": "^3.4.10",
     "vue-router": "^4.2.5"
-  },
-  "dependencies": {
-    "css-doodle": "^0.38.3"
   }
 }
