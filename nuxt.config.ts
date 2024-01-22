@@ -2,4 +2,7 @@
 export default defineNuxtConfig({
 	devtools: { enabled: true },
 	ssr: false,
+	app: {
+		baseURL: '/perspective-playground/',
+	},
 })
