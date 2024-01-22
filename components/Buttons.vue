@@ -5,6 +5,17 @@
 	</div>
 </template>
 
+<script lang="ts" setup>
+	const reset = () => useData().resetAll()
+
+	const copyToClipboard = async () => {
+		const text = useData().getAlltoString()
+		await navigator.clipboard.writeText(text)
+
+		alert('CSS copied to Clipboard!')
+	}
+</script>
+
 <style>
 	button {
 		background-color: #8d81f3;
